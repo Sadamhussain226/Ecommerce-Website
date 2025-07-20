@@ -1,0 +1,482 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    max-width: 100vw;
+}
+header{
+    font-family: "Jost", sans-serif;
+}
+
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+
+
+
+.search1:hover{
+    cursor: pointer;
+    
+}
+.navbarValues11{
+    margin-right: 25px;
+    color: rgb(98, 98, 98);
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.homeAnchorTag{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+.homeAnchorTag:hover{
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+    color: black;
+}
+
+
+.AboutUsAnchorTag{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+.AboutUsAnchorTag:hover{
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+    color: black;
+}
+
+.contactUsAnchorTag{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+.contactUsAnchorTag:hover{
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+    color: black;
+}
+.BlogsAnchorTag{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+.BlogsAnchorTag:hover{
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+    color: black;
+}
+.FaqsAnchorTag{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+.FaqsAnchorTag:hover{
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+    color: black;
+}
+
+
+.navbarValues1{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.navbarValues{
+    padding: 10px 0;
+}
+
+.imagelogo:hover{
+    cursor: pointer;
+}
+
+.loginicon:hover{
+    transform: scale(1.07);
+}
+
+.shopingbagicon:hover{
+    transform: scale(1.07);
+}
+
+
+
+
+
+
+
+
+.logInForm{
+    height: 100vh;
+}
+.logIn{
+    font-family: "Montserrat", sans-serif;
+    height: 52px;
+    letter-spacing: 0.6px;
+    word-spacing: 0px;
+    display: flex;
+    justify-content: center; 
+    font-size: 40px; 
+    padding-top: 50px;   
+}  
+.logIn>p{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.formSign{
+    height: 50px;
+    padding-top: 15px;
+}
+.signEmail{
+    height: auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.abc12{
+    width: 446px;
+    height: 60px;
+    border: 1px solid #848485;
+    border-radius: 10px;
+    
+}
+.abc12:hover{
+    border: 1.5px solid #848485;
+}
+.signPassword{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.forgot{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.forgotPassword{
+    color: black;
+    width: 446px;
+    height: auto;
+    text-decoration: underline 1px solid;
+    font-size: 12px;
+    
+}
+.forgotPassword:hover{
+    text-decoration: underline 1.5px solid;
+}
+.signIn12{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.signIn12>button{
+    width: 122px;
+    height: 47px;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    font-size: 12px;
+}
+.signIn12>button:hover{
+    scale: 1.02;
+}
+.createAcc{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 12px;
+    
+}
+.createAccount{
+    color: black;
+}
+.createAcc:hover{
+    text-decoration: underline 1.5px solid ;
+}
+
+
+
+
+
+
+.section11{
+    height: 450px;
+    border-top: 0.2px solid rgb(224, 224, 224);
+    border-bottom: 0.2px solid rgb(224, 224, 224);
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.section11-b{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    gap: 40px;
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+
+
+
+.largelogo{
+    margin-top: 10px;
+}
+
+.section11div1Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.section11div1Number{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    margin-top: 20px;
+    color: rgb(88, 88, 88);
+
+}
+
+.section11div1Number:hover{
+    color: rgb(40, 40, 40);
+    text-decoration: underline 0.5px;
+}
+.section11div1Email{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    margin-top: 20px;
+    color: rgb(88, 88, 88);
+}
+
+.div1email{
+    color: rgb(88, 88, 88);
+    font-style: normal;
+}
+.div1Emaillink{
+    text-decoration: none;
+}
+
+
+.div1Number{
+    color: rgb(88, 88, 88);
+    font-style: normal;
+}
+
+.div1Numberlink{
+    text-decoration: none;
+}
+
+.div1Emaillink:hover{
+    color: rgb(40, 40, 40);
+    text-decoration: underline 0.5px;
+}
+
+
+
+
+.section11div2Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.footerlists{
+    list-style-type: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    line-height: 30px;
+    color: rgb(88, 88, 88);
+    padding-top: 20px;
+}
+.FooterFranchisePage{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.FooterFranchisePage:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+
+
+
+
+
+.footerContactUs{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerContactUs:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+
+.footerFAQS{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerFAQS:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+
+.footerAboutUs{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerAboutUs:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+.footerBlogs{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerBlogs:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+
+.footerTermsOfService{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerTermsOfService:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+.footerShippingPolicy{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerShippingPolicy:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+.footerRefundPolicy{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerRefundPolicy:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+.footerPrivacyPolicy{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerPrivacyPolicy:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+
+
+
+.instagram:hover{
+    transform: scale(1.07);
+}
+
+
+.facebook:hover{
+    transform: scale(1.07);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lastdiv{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+    color: rgb(118, 118, 118);
+    letter-spacing: 0.4px;
+    font-family: "Jost", sans-serif;
+    padding-top: 25px;
+}
+.sadam{
+    text-decoration: underline 0.3px;
+    color: rgb(118, 118, 118);
+}
+.sadam:hover{
+    color: rgb(49, 49, 49);
+}
+.sadam:visited{
+    color: rgb(118, 118, 118);
+}
+.arrehmanfragrances{
+    text-decoration: underline 0.3px;
+    color: rgb(118, 118, 118);
+
+}
+.arrehmanfragrances:hover{
+    color: rgb(49, 49, 49);
+}
+
+.website{
+    color: rgb(118, 118, 118);
+}

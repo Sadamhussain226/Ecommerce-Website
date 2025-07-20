@@ -1,0 +1,4156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+body {
+    max-width: 100vw;
+}
+
+header{
+    font-family: "Jost", sans-serif;
+}
+
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.bg{
+    background-image: url(Assets/bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.search1:hover{
+    cursor: pointer;
+    
+}
+
+.navbarValues11{
+    margin-right: 25px;
+    color: rgb(98, 98, 98);
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.homeAnchorTag{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+.homeAnchorTag:hover{
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+    color: black;
+}
+.AboutUsAnchorTag{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+.AboutUsAnchorTag:hover{
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+
+.contactUsAnchorTag{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+.contactUsAnchorTag:hover{
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+    color: black;
+}
+.FaqsAnchorTag{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+.FaqsAnchorTag:hover{
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+    color: black;
+}
+.BlogsAnchorTag{
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+.BlogsAnchorTag:hover{
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+.navbarValues1{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.navbarValues{
+    padding: 10px 0;
+}
+
+.imagelogo:hover{
+    cursor: pointer;
+}
+
+.loginicon:hover{
+    transform: scale(1.07);
+}
+
+.shopingbagicon:hover{
+    transform: scale(1.07);
+}
+.menWomenUnisex{
+    background-color: rgb(255, 255, 255);
+}
+.ThreeMWU{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+}
+.MWUtext{
+    position: relative;
+    top: 10px;
+    
+}
+
+.men1{
+    height: 330px;
+    width: 330px;
+    transition: 0.3s ease;
+}
+.women1{
+    height: 330px;
+    width: 330px;
+    transition: 0.3s ease;
+}
+.unisex1{
+    height: 330px;
+    width: 330px;
+    transition: 0.3s ease;
+}
+.men1:hover{
+    transform: scale(1.03);
+}
+.women1:hover{
+    transform: scale(1.03);
+}
+.unisex1:hover{
+    transform: scale(1.03);
+}
+.men:hover{
+    cursor: pointer;
+}
+.women:hover{
+    cursor: pointer;
+}
+.unisex:hover{
+    cursor: pointer;
+}
+
+
+.section4{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.section4-a{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.textSection{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fiveCards1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0;
+    top: 70px;
+}
+.section4Card1{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+
+.card1Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 4px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card1stars{
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+.card1delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card1blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card1price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card1cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section4Cart:hover{
+    border: 1.5px solid black;
+    transition-duration: 0.1s;
+}
+.addtoCart1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section4Card2{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.card2Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card2stars{
+    text-align: center;
+}
+
+
+
+.card2delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card2blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card2price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card2cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtoCart2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section4Card3{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.card3Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card3stars{
+    text-align: center;
+}
+
+
+
+.card3delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card3blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card3price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card3cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtoCart3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.section4Card4{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.card4Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card4stars{
+    text-align: center;
+}
+
+
+
+.card4delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card4blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card4price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card4cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtoCart4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.section4Card5{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.card5Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card5stars{
+    text-align: center;
+}
+
+
+
+.card5delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card5blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card5price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card5cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtoCart5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fiveCards2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section4Card6{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.card6Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card6stars{
+    text-align: center;
+}
+
+
+
+.card6delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card6blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card6price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card6cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtoCart6{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.section4Card7{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.card7Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card7stars{
+    text-align: center;
+}
+
+
+
+.card7delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card7blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card7price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card7cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtoCart7{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section4Card8{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.card8Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card8stars{
+    text-align: center;
+}
+
+
+
+.card8delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card8blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card8price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card8cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtoCart8{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.section4Card9{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.card9Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card9stars{
+    text-align: center;
+}
+
+
+
+.card9delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card9blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card9price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card9cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtoCart9{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section4Card10{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.card10Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card10stars{
+    text-align: center;
+}
+
+
+
+.card10delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card10blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card10price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card10cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtoCart10{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.fiveCards3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0;
+    top: 170px;
+}
+
+
+
+
+
+
+.section4Card11{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.card11Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card11stars{
+    text-align: center;
+}
+
+
+
+.card11delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card11blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card11price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card11cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtoCart11{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section4Card12{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.card12Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card12stars{
+    text-align: center;
+}
+
+
+
+.card12delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card12blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card12price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card12cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtoCart12{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.section4Card13{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.card13Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card13stars{
+    text-align: center;
+}
+
+
+
+.card13delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card13blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card13price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card13cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtoCart13{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.section4Card14{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.card14Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card14stars{
+    text-align: center;
+}
+
+
+
+.card14delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card14blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card14price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card14cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtoCart14{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.section4Card15{
+    height: 320px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.card15Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.card15stars{
+    text-align: center;
+}
+
+
+
+.card15delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.card15blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.card15price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.card15cart{
+    height: 30px;
+    width: 189px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtoCart15{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section5Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+
+.section5{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.section5-a{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fourCards1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.section5Card1{
+    height: 340px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section5card1sale{
+    height: 20px;
+    width: 45px;
+    background-color: red;
+    font-size: 8px;
+    color: white;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    left: 195px;
+}
+
+.section5card1Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section5card1delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card1blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card1price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+
+
+
+
+.section5Card2{
+    height: 340px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section5card2Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section5card2delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card2blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card2price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+.section5Card3{
+    height: 340px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section5card3Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section5card3delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card3blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card3price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.section5Card4{
+    height: 340px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section5card4Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section5card4delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card4blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card4price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fourCards2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.section5Card5{
+    height: 340px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section5card5Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section5card5delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card5blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card5price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+.section5Card6{
+    height: 340px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section5card6Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section5card6delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card6blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card6price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+.section5Card7{
+    height: 340px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section5card7Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section5card7delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card7blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card7price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.section5Card8{
+    height: 340px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section5card8Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section5card8delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card8blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card8price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fourCards3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.section5Card9{
+    height: 340px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section5card9Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section5card9delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card9blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card9price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+.section5Card10{
+    height: 340px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section5card10Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section5card10delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card10blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card10price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+.section5Card11{
+    height: 340px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section5card11Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section5card11delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card11blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card11price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.section5Card12{
+    height: 340px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section5card12Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section5card12delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card12blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section5card12price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section6Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section6{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.section6-a{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+.four-Cards1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.section6Card1{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section6card1sale{
+    height: 20px;
+    width: 45px;
+    background-color: red;
+    font-size: 8px;
+    color: white;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    left: 195px;
+}
+
+.section6card1Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section6card1stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section6card1delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section6card1blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section6card1price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+.section6Card2{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section6card2Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section6card2stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section6card2delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section6card2blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section6card2price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+.section6Card3{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section6card3Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section6card3stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section6card3delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section6card3blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section6card3price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.section6Card4{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section6card4Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section6card4stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section6card4delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section6card4blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section6card4price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.four-Cards2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.section6Card5{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding-top: 20px;
+}
+
+.section6card5Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section6card5stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+
+.section6card5blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section6card5price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+.section6Card6{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding-top: 20px;
+}
+
+.section6card6Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section6card6stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.section6card6blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section6card6price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+.section6Card7{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding-top: 20px;
+}
+
+.section6card7Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section6card7stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.section6card7blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section6card7price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.section6Card8{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section6card8Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section6card8stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section6card8delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section6card8blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section6card8price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section7Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+.section7{
+    /* width: 100vw; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.section7-a{
+    /* width: 90vw; */
+    display: block;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.four-women-Cards1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.section7Card1{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section7card1sale{
+    height: 20px;
+    width: 45px;
+    background-color: red;
+    font-size: 8px;
+    color: white;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    left: 195px;
+}
+
+.section7card1Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section7card1stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section7card1delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card1blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card1price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+.section7Card2{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.section7card2Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section7card2stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section7card2delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card2blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card2price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+.section7Card3{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.section7card3Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section7card3stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section7card3delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card3blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card3price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.section7Card4{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section7card4Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section7card4stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section7card4delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card4blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card4price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.four-women-Cards2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.section7Card5{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section7card5Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section7card5stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section7card5delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card5blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card5price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+.section7Card6{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.section7card6Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section7card6stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section7card6delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card6blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card6price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+.section7Card7{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.section7card7Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section7card7stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section7card7delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card7blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card7price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.section7Card8{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.section7card8Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section7card8stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section7card8delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card8blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section7card8price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section8Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+.section8{
+    /* width: 100vw; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.section8-a{
+    /* width: 90vw; */
+    display: block;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+
+.section8cardsale{
+    height: 20px;
+    width: 45px;
+    background-color: red;
+    font-size: 8px;
+    color: white;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    left: 290px;
+    
+}
+
+
+
+.BestPRODUCTSCards1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.section8Card1{
+    height: 470px;
+    width: 345px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.section8card1sale{
+    height: 20px;
+    width: 45px;
+    background-color: red;
+    font-size: 8px;
+    color: white;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-wrap: wrap
+    justify-content: center;
+    align-items: center;,
+    position: relative;  
+    top: 30px;
+    left: 195px;
+}
+
+.section8card1Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section8card1stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section8card1delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card1blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card1price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5px;
+}
+
+.section8card1cart{
+    height: 30px;
+    width: 345px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.section8addtoCart1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section8Cart:hover{
+    border: 1.5px solid;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.section8Card2{
+    height: 470px;
+    width: 345px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section8card2Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section8card2stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section8card2delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card2blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card2price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5px;
+}
+
+.section8card2cart{
+    height: 30px;
+    width: 345px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.section8addtoCart2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.section8Card3{
+    height: 470px;
+    width: 345px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section8card3Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section8card3stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section8card3delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card3blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card3price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5px;
+}
+
+.section8card3cart{
+    height: 30px;
+    width: 345px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.section8addtoCart3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.BestPRODUCTSCards2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 15px;
+}
+.section8Card4{
+    height: 470px;
+    width: 345px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+
+}
+
+.section8card4Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section8card4stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section8card4delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card4blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card4price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5px;
+}
+
+.section8card4cart{
+    height: 30px;
+    width: 345px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.section8addtoCart4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+.section8Card5{
+    height: 470px;
+    width: 345px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.section8card5Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section8card5stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section8card5delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card5blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card5price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5px;
+}
+
+.section8card5cart{
+    height: 30px;
+    width: 345px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.section8addtoCart5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+.section8Card6{
+    height: 470px;
+    width: 345px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section8card6Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section8card6stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section8card6delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card6blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card6price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5px;
+}
+
+.section8card6cart{
+    height: 30px;
+    width: 345px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.section8addtoCart6{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.BestPRODUCTSCards3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 15px;
+}
+.section8Card7{
+    height: 470px;
+    width: 345px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section8card7sale{
+    height: 20px;
+    width: 45px;
+    background-color: red;
+    font-size: 8px;
+    color: white;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    left: 195px;
+}
+
+.section8card7Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section8card7stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section8card7delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card7blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card7price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5px;
+}
+
+.section8card7cart{
+    height: 30px;
+    width: 345px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.section8addtoCart7{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+.section8Card8{
+    height: 470px;
+    width: 345px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.section8card8Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section8card8stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section8card8delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card8blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card8price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5px;
+}
+
+.section8card8cart{
+    height: 30px;
+    width: 345px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.section8addtoCart8{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.section8Card9{
+    height: 470px;
+    width: 345px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section8card9Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section8card9stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section8card9delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card9blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section8card9price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5px;
+}
+
+.section8card9cart{
+    height: 30px;
+    width: 345px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.section8addtoCart9{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+.section9Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+
+
+
+.ShopInBundles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.section9Card1{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section9card1sale{
+    height: 20px;
+    width: 45px;
+    background-color: red;
+    font-size: 8px;
+    color: white;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    left: 195px;
+}
+
+.section9card1Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section9card1stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section9card1delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section9card1blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section9card1price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+.section9Card2{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section9card2Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section9card2stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section9card2delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section9card2blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section9card2price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+.section9Card3{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section9card3Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section9card3stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section9card3delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section9card3blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section9card3price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.section9Card4{
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section9card4Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 12px;
+    text-align: center;
+    color: rgb(109, 109, 109);
+
+}
+.section9card4stars{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.section9card4delete{
+    color: red;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+.section9card4blackPrice{
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.section9card4price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section10Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    letter-spacing: 1px;
+    padding-top: 70px;
+}
+
+
+
+.AllAboutPerfumes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 15px;
+}
+.section10Card1{
+    height: 480px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.section10card1Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 12px;
+    left: 30px;
+    text-align: start;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+
+}
+.section10card1SmallText{
+    color: rgb(83, 82, 82);
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    padding-top: 25px;
+    position: relative;
+    left: 30px;
+    line-height: 20px;
+}
+
+
+.section10Card2{
+    height: 480px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section10card2Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 12px;
+    left: 30px;
+    text-align: start;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+
+}
+.section10card2SmallText{
+    color: rgb(83, 82, 82);
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    padding-top: 25px;
+    position: relative;
+    left: 30px;
+    line-height: 20px;
+}
+
+
+
+.section10Card3{
+    height: 480px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section10card3Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 12px;
+    left: 30px;
+    text-align: start;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+
+}
+.section10card3SmallText{
+    color: rgb(83, 82, 82);
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    padding-top: 25px;
+    position: relative;
+    left: 30px;
+    line-height: 20px;
+}
+
+
+
+
+
+.section10Card4{
+    height: 480px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.section10card4Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 12px;
+    left: 30px;
+    text-align: start;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+
+}
+.section10card4SmallText{
+    color: rgb(83, 82, 82);
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    padding-top: 25px;
+    position: relative;
+    left: 30px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section11{
+    height: 450px;
+    border-top: 0.2px solid rgb(224, 224, 224);
+    border-bottom: 0.2px solid rgb(224, 224, 224);
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.section11-b{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    gap: 40px;
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+
+
+
+.largelogo{
+    margin-top: 10px;
+}
+
+.section11div1Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.section11div1Number{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    margin-top: 20px;
+    color: rgb(88, 88, 88);
+
+}
+
+.section11div1Number:hover{
+    color: rgb(40, 40, 40);
+    text-decoration: underline 0.5px;
+}
+.section11div1Email{
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    margin-top: 20px;
+    color: rgb(88, 88, 88);
+}
+
+.div1email{
+    color: rgb(88, 88, 88);
+    font-style: normal;
+}
+.div1Emaillink{
+    text-decoration: none;
+}
+
+
+.div1Number{
+    color: rgb(88, 88, 88);
+    font-style: normal;
+}
+
+.div1Numberlink{
+    text-decoration: none;
+}
+
+.div1Emaillink:hover{
+    color: rgb(40, 40, 40);
+    text-decoration: underline 0.5px;
+}
+
+
+
+
+.section11div2Text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+.footerlists{
+    list-style-type: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    line-height: 30px;
+    color: rgb(88, 88, 88);
+    padding-top: 20px;
+}
+.FooterFranchisePage{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.FooterFranchisePage:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+
+
+
+
+
+.footerContactUs{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerContactUs:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+
+.footerFAQS{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerFAQS:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+
+.footerAboutUs{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerAboutUs:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+.footerBlogs{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerBlogs:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+
+.footerTermsOfService{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerTermsOfService:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+.footerShippingPolicy{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerShippingPolicy:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+.footerRefundPolicy{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerRefundPolicy:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+.footerPrivacyPolicy{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.footerPrivacyPolicy:hover{
+    text-decoration: underline 0.5px;
+    color: rgb(40, 40, 40);
+}
+
+
+
+.instagram:hover{
+    transform: scale(1.07);
+}
+
+
+.facebook:hover{
+    transform: scale(1.07);
+}
+
+
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lastdiv{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+    color: rgb(118, 118, 118);
+    letter-spacing: 0.4px;
+    font-family: "Jost", sans-serif;
+    padding-top: 25px;
+}
+.sadam{
+    text-decoration: underline 0.3px;
+    color: rgb(118, 118, 118);
+}
+.sadam:hover{
+    color: rgb(49, 49, 49);
+}
+.sadam:visited{
+    color: rgb(118, 118, 118);
+}
+.arrehmanfragrances{
+    text-decoration: underline 0.3px;
+    color: rgb(118, 118, 118);
+
+}
+.arrehmanfragrances:hover{
+    color: rgb(49, 49, 49);
+}
+
+.website{
+    color: rgb(118, 118, 118);
+}
+
+.sectionCards{
+    cursor: pointer;
+}
